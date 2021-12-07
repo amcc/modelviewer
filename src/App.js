@@ -23,6 +23,7 @@ function App() {
         src="/models/Astronaut.glb"
         ios-src=""
         poster="/models/astronaut.png"
+        environment-image="neutral"
         alt="A 3D model of an astronaut"
         shadow-intensity="1"
         camera-controls
