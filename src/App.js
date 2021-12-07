@@ -32,9 +32,9 @@ function App() {
         ar-modes="webxr scene-viewer quick-look"
       ></model-viewer> */}
       <model-viewer
-        src="/models/donut4.glb"
+        src="/models/donut4-nochange.glb"
         ios-src=""
-        poster="/models/donut.png"
+        poster="/models/donut.jpg"
         environment-image="neutral"
         alt="A 3D model of an astronaut"
         shadow-intensity="1"
