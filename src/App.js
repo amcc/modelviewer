@@ -29,7 +29,7 @@ function App() {
         camera-controls
         auto-rotate
         ar
-        ar-modes="webxr scene-viewer quick-look"
+        // ar-modes="webxr scene-viewer quick-look"
       ></model-viewer>
     </div>
   );
