@@ -19,7 +19,7 @@ function App() {
         camera-controls
       ></model-viewer> */}
 
-      <model-viewer
+      {/* <model-viewer
         src="/models/Astronaut.glb"
         ios-src=""
         poster="/models/astronaut.png"
@@ -29,7 +29,19 @@ function App() {
         camera-controls
         auto-rotate
         ar
-        // ar-modes="webxr scene-viewer quick-look"
+        ar-modes="webxr scene-viewer quick-look"
+      ></model-viewer> */}
+      <model-viewer
+        src="/models/donut4.glb"
+        ios-src=""
+        poster="/models/donut.png"
+        environment-image="neutral"
+        alt="A 3D model of an astronaut"
+        shadow-intensity="1"
+        camera-controls
+        auto-rotate
+        ar
+        ar-modes="webxr scene-viewer quick-look"
       ></model-viewer>
     </div>
   );
